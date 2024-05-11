@@ -21,19 +21,47 @@ console.log(number, woman, nameUser, number2);
 
 let num = 1;
 num += 11;
-alert(num);
+console.log(num);
 
 num -= 11;
-alert(num);
+console.log(num);
 
 num *= 11;
-alert(num);
+console.log(num);
 
 num /= 11;
-alert(num);
+console.log(num);
 
 num++;
-alert(num);
+console.log(num);
 
 num--;
-alert(num);
+console.log(num);
+
+let n = prompt("Введіть число:", "1");
+alert(n * n);
+
+let m = +prompt("Введіть число:", "1");
+let k = +prompt("Введіть число:", "1");
+let z = (m + k) / 2;
+alert(z);
+
+let x = prompt("Введіть кількість хвилин:", "1");
+alert(x * 60);
+
+const greeting = "Hello,";
+const userName = prompt("Input name:", "anonim");
+alert(userName);
+document.write("<p>" + greeting + " " + userName + "<p>");
+
+// let firstName = prompt("Input name:", "Anoninus");
+// lastName = prompt("Imput surname:", "noname");
+// email = prompt("Input emeil:", "lidiairchak@gmail.com");
+// phoneNumber = prompt("Input phone number:", "+380000000000");
+// age = prompt("Input age:", "18");
+// link = prompt(
+//   "Input link:",
+//   "https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png"
+// );
+// console.log(firstName, lastName, email, phoneNumber, age);
+// document.write("<a>" + link + "<a>");
