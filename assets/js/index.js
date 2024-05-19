@@ -64,4 +64,16 @@ document.write("<p>" + greeting + " " + userName + "<p>");
 //   "https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png"
 // );
 // console.log(firstName, lastName, email, phoneNumber, age);
-// document.write("<a>" + link + "<a>");
+// document.write("<img scr' " + link + "' alt='user' />");
+// document.write(
+//     `
+//     <article>
+//     <img class="photo" scr = '`+ link + `'alt='user` />
+//     <h2>` +
+//         firstName +
+//         " " +
+//         lastName +
+//     `</h2>
+//     </article>
+//     `
+// )
